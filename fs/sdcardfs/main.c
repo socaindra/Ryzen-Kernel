@@ -471,7 +471,6 @@ MODULE_ALIAS_FS(SDCARDFS_NAME);
 
 extern bool plain_partitions;
 extern bool sdcardfs_enabled;
-extern bool is_dynamic_partitions(void);
 
 static int __init init_sdcardfs_fs(void)
 {
